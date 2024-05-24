@@ -2,73 +2,73 @@
 
 This is a repository for computer vision learning.
 
-## 1_Course_Introduction
+## 01_Course_Introduction
 
-- [Overview of computer vision](./1_Course_Introduction/Overview_of_computer_vision.py)
+- [Overview of computer vision](./01_Course_Introduction/Overview_of_computer_vision.py)
 
-## 2_Image_Filtering
+## 02_Image_Filtering
 
-- [Image transformations](./2_Image_Filtering/Image_transformations.py)
-- [point image processing](./2_Image_Filtering/point_image_processing.py)
-- [linear shift-invariant image filtering](./2_Image_Filtering/linear_shift_invariant_image_filtering.py)
-- [convolution](./2_Image_Filtering/convolution.py)
-- [image gradients](./2_Image_Filtering/image_gradients.py)
+- [Image transformations](./02_Image_Filtering/Image_transformations.py)
+- [point image processing](./02_Image_Filtering/point_image_processing.py)
+- [linear shift-invariant image filtering](./02_Image_Filtering/linear_shift_invariant_image_filtering.py)
+- [convolution](./02_Image_Filtering/convolution.py)
+- [image gradients](./02_Image_Filtering/image_gradients.py)
 
-## 3_Image_Pyramids_and_Frequency_Domain
+## 03_Image_Pyramids_and_Frequency_Domain
 
-- [Image downsampling](./3_Image_Pyramids_and_Frequency_Domain/Image_downsampling.py)
-- [aliasing](./3_Image_Pyramids_and_Frequency_Domain/aliasing.py)
-- [Gaussian image pyramid](./3_Image_Pyramids_and_Frequency_Domain/Gaussian_image_pyramid.py)
-- [Laplacian image pyramid](./3_Image_Pyramids_and_Frequency_Domain/Laplacian_image_pyramid.py)
-- [Fourier series](./3_Image_Pyramids_and_Frequency_Domain/Fourier_series.py)
-- [frequency domain](./3_Image_Pyramids_and_Frequency_Domain/frequency_domain.py)
-- [Fourier transform](./3_Image_Pyramids_and_Frequency_Domain/Fourier_transform.py)
-- [frequency-domain filtering](./3_Image_Pyramids_and_Frequency_Domain/frequency_domain_filtering.py)
-- [sampling](./3_Image_Pyramids_and_Frequency_Domain/sampling.py)
+- [Image downsampling](./03_Image_Pyramids_and_Frequency_Domain/Image_downsampling.py)
+- [aliasing](./03_Image_Pyramids_and_Frequency_Domain/aliasing.py)
+- [Gaussian image pyramid](./03_Image_Pyramids_and_Frequency_Domain/Gaussian_image_pyramid.py)
+- [Laplacian image pyramid](./03_Image_Pyramids_and_Frequency_Domain/Laplacian_image_pyramid.py)
+- [Fourier series](./03_Image_Pyramids_and_Frequency_Domain/Fourier_series.py)
+- [frequency domain](./03_Image_Pyramids_and_Frequency_Domain/frequency_domain.py)
+- [Fourier transform](./03_Image_Pyramids_and_Frequency_Domain/Fourier_transform.py)
+- [frequency-domain filtering](./03_Image_Pyramids_and_Frequency_Domain/frequency_domain_filtering.py)
+- [sampling](./03_Image_Pyramids_and_Frequency_Domain/sampling.py)
 
-## 4_Hough_Transform
+## 04_Hough_Transform
 
-- [Finding boundaries](./4_Hough_Transform/Finding_boundaries.py)
-- [line fitting](./4_Hough_Transform/line_fitting.py)
-- [line parameterization](./4_Hough_Transform/line_parameterization.py)
-- [Hough transform](./4_Hough_Transform/Hough_transform.py)
-- [Hough circles](./4_Hough_Transform/Hough_circles.py)
+- [Finding boundaries](./04_Hough_Transform/Finding_boundaries.py)
+- [line fitting](./04_Hough_Transform/line_fitting.py)
+- [line parameterization](./04_Hough_Transform/line_parameterization.py)
+- [Hough transform](./04_Hough_Transform/Hough_transform.py)
+- [Hough circles](./04_Hough_Transform/Hough_circles.py)
 
-## 5_Detecting_Corners
+## 05_Detecting_Corners
 
-- [Visualizing quadratics](./5_Detecting_Corners/Visualizing_quadratics.py)
-- [Harris corner detector](./5_Detecting_Corners/Harris_corner_detector.py)
-- [multi-scale detection](./5_Detecting_Corners/multi_scale_detection.py)
+- [Visualizing quadratics](./05_Detecting_Corners/Visualizing_quadratics.py)
+- [Harris corner detector](./05_Detecting_Corners/Harris_corner_detector.py)
+- [multi-scale detection](./05_Detecting_Corners/multi_scale_detection.py)
 
-## 6_Feature_Detectors_and_Descriptors
+## 06_Feature_Detectors_and_Descriptors
 
-- [Designing feature descriptors](./6_Feature_Detectors_and_Descriptors/Designing_feature_descriptors.py)
-- [MOPS descriptor](./6_Feature_Detectors_and_Descriptors/MOPS_descriptor.py)
-- [GIST descriptor](./6_Feature_Detectors_and_Descriptors/GIST_descriptor.py)
-- [Histogram of Textons descriptor](./6_Feature_Detectors_and_Descriptors/Histogram_of_Textons_descriptor.py)
-- [HOG descriptor](./6_Feature_Detectors_and_Descriptors/HOG_descriptor.py)
-- [SIFT](./6_Feature_Detectors_and_Descriptors/SIFT.py)
+- [Designing feature descriptors](./06_Feature_Detectors_and_Descriptors/Designing_feature_descriptors.py)
+- [MOPS descriptor](./06_Feature_Detectors_and_Descriptors/MOPS_descriptor.py)
+- [GIST descriptor](./06_Feature_Detectors_and_Descriptors/GIST_descriptor.py)
+- [Histogram of Textons descriptor](./06_Feature_Detectors_and_Descriptors/Histogram_of_Textons_descriptor.py)
+- [HOG descriptor](./06_Feature_Detectors_and_Descriptors/HOG_descriptor.py)
+- [SIFT](./06_Feature_Detectors_and_Descriptors/SIFT.py)
 
-## 7_2D_Transformations
+## 07_2D_Transformations
 
-- [2D transformations](./7_2D_Transformations/2D_transformations.py)
-- [projective geometry](./7_2D_Transformations/projective_geometry.py)
-- [classification of 2D transformations](./7_2D_Transformations/classification_of_2D_transformations.py)
-- [determining unknown 2D transformations](./7_2D_Transformations/determining_unknown_2D_transformations.py)
+- [2D transformations](./07_2D_Transformations/2D_transformations.py)
+- [projective geometry](./07_2D_Transformations/projective_geometry.py)
+- [classification of 2D transformations](./07_2D_Transformations/classification_of_2D_transformations.py)
+- [determining unknown 2D transformations](./07_2D_Transformations/determining_unknown_2D_transformations.py)
 
-## 8_Image_Homographies
+## 08_Image_Homographies
 
-- [Panoramas](./8_Image_Homographies/Panoramas.py)
-- [Image homographies](./8_Image_Homographies/Image_homographies.py)
-- [Computing with homographies](./8_Image_Homographies/Computing_with_homographies.py)
-- [direct linear transform (DLT)](./8_Image_Homographies/direct_linear_transform_DLT.py)
-- [random sample consensus (RANSAC)](./8_Image_Homographies/random_sample_consensus_RANSAC.py)
+- [Panoramas](./08_Image_Homographies/Panoramas.py)
+- [Image homographies](./08_Image_Homographies/Image_homographies.py)
+- [Computing with homographies](./08_Image_Homographies/Computing_with_homographies.py)
+- [direct linear transform (DLT)](./08_Image_Homographies/direct_linear_transform_DLT.py)
+- [random sample consensus (RANSAC)](./08_Image_Homographies/random_sample_consensus_RANSAC.py)
 
-## 9_Geometric_Camera_Models
+## 09_Geometric_Camera_Models
 
-- [Pinhole camera](./9_Geometric_Camera_Models/Pinhole_camera.py)
-- [accidental pinholes](./9_Geometric_Camera_Models/accidental_pinholes.py)
-- [camera matrix](./9_Geometric_Camera_Models/camera_matrix.py)
+- [Pinhole camera](./09_Geometric_Camera_Models/Pinhole_camera.py)
+- [accidental pinholes](./09_Geometric_Camera_Models/accidental_pinholes.py)
+- [camera matrix](./09_Geometric_Camera_Models/camera_matrix.py)
 
 ## 10_Geometric_Camera_Models_cont.
 
