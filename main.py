@@ -37,7 +37,13 @@ for lecture_id_name, contents in lectures.items():
         file_path = os.path.join(lecture_id_name, file_name)
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(f"# {content}\n\n")
-            file.write(f'"""\nLecture: {lecture_id_name}\nContent: {content}\n"""\n\n')
+            file.write(f'"""\n\nLecture: {lecture_id_name}\nContent: {content}\n\n"""\n\n')
+            
+        file_name = content.replace(" ", "_").replace("-", "_").replace(",", "") + ".md"
+        file_path = os.path.join(lecture_id_name, file_name)
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(f"# {content}\n\n")
+            file.write(f'"""\n\nLecture: {lecture_id_name}\nContent: {content}\n\n"""\n\n')
         
     readme_file_path = os.path.join(lecture_id_name, "README.md")
     with open(readme_file_path, 'w', encoding='utf-8') as file:
@@ -64,6 +70,21 @@ with open("README.md", 'w', encoding='utf-8') as readme_file:
         for content in contents:
             # 文件名不能有空格和特殊字符，替换为下划线
             file_name = content.replace(" ", "_").replace("-", "_").replace(",", "").replace("(", "").replace(")", "") + ".py"
+            file_path = os.path.join(lecture_id_name, file_name)
+            
+            # 创建文件并写入初始内容
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(f"# {content}\n\n")
+                file.write(f'"""\nLecture: {lecture_id_name}\nContent: {content}\n"""\n\n')
+            
+            # 在README中添加文件链接
+            readme_file.write(f"- [{content}](./{lecture_id_name}/{file_name})\n")
+            
+            readme_file.write("\n")
+            
+            
+            # 文件名不能有空格和特殊字符，替换为下划线
+            file_name = content.replace(" ", "_").replace("-", "_").replace(",", "").replace("(", "").replace(")", "") + ".md"
             file_path = os.path.join(lecture_id_name, file_name)
             
             # 创建文件并写入初始内容
